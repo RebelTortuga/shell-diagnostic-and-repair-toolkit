@@ -112,6 +112,18 @@ Bug reports, ideas and sharing the project are welcome too.
 | [OPTIONS-README.md](OPTIONS-README.md) | Complete action guide and manual restore instructions |
 | [CHANGELOG.md](CHANGELOG.md) | Version 1.0.0 release changes |
 
+## Frequently asked questions and troubleshooting
+
+**What is the safest first action?** Run **Diagnostics → Check shell tools and common folders**, then choose the backup sources you want to save.
+
+**Where should I save backups?** Choose a destination outside every selected source folder, preferably on another drive. Avoid placing the backup inside a folder that is being backed up.
+
+**Does Restore automatically overwrite my files?** No. Follow the documented **Manual Restore** procedure and review destinations before copying files.
+
+**How do I know a backup succeeded?** After the completion message, use **Diagnostics → Verify a backup** against the dated backup directory.
+
+**Why did a separate PowerShell window open?** The no-profile diagnostic starts a visible test shell. It is separate from the graphical toolkit and can be closed when finished.
+
 ## 🔗 Related Free RebelTortuga Projects
 
 Explore other free tools and workflows:
