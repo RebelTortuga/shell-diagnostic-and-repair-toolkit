@@ -112,6 +112,16 @@ Bug reports, ideas and sharing the project are welcome too.
 | [OPTIONS-README.md](OPTIONS-README.md) | Complete action guide and manual restore instructions |
 | [CHANGELOG.md](CHANGELOG.md) | Version 1.0.0 release changes |
 
+## 🔗 Related Free RebelTortuga Projects
+
+Explore other free tools and workflows:
+
+- [wow-diagnostic-and-repair-toolkit](https://github.com/RebelTortuga/wow-diagnostic-and-repair-toolkit)
+- [firefox-diagnostic-and-repair-toolkit](https://github.com/RebelTortuga/firefox-diagnostic-and-repair-toolkit)
+- [brave-diagnostic-and-repair-toolkit](https://github.com/RebelTortuga/brave-diagnostic-and-repair-toolkit)
+
+[Browse all RebelTortuga projects](https://github.com/RebelTortuga)
+
 ## 🐢 Support RebelTortuga
 
 All features are free. A donation is never required and does not unlock anything.
