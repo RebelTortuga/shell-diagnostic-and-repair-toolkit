@@ -3,7 +3,7 @@
 
 **Developer:** RebelTortuga  
 **Platform:** Windows 10 / Windows 11  
-**Version:** 1.0.0
+**Version:** 1.0.1
 
 ## Launch
 
