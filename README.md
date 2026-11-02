@@ -20,7 +20,7 @@ and results below the actions.
 
 ## Screenshot
 
-![Shell Diagnostic and Repair Toolkit main window, with username and local path redacted](assets/screenshot.png)
+![Shell Diagnostic and Repair Toolkit main window with folder controls, navigation, and results panel](assets/screenshot.png)
 
 ## Start Here
 
