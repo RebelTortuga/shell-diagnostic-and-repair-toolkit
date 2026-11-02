@@ -11,7 +11,7 @@
 
 **Developer:** RebelTortuga  
 **Platform:** Windows 10 / Windows 11  
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 **Cost:** Free to use. No payment is required.
 
 Back up shell configuration and project folders, check locally available shell tools, and verify saved backup
@@ -76,7 +76,7 @@ marker. Existing backups are not overwritten. Backups are not encrypted: keep th
 ## Restore and Verification
 
 ### Manual Restore
-Restore is manual in Version 1.0.0. The restore button opens the detailed guide; it does not automatically
+Restore is manual in Version 1.0.1. The restore button opens the detailed guide; it does not automatically
 change files, registry settings or environment variables. Follow [OPTIONS-README.md](OPTIONS-README.md) to
 review original locations and copy files safely.
 
@@ -117,7 +117,7 @@ Bug reports, ideas and sharing the project are welcome too.
 | [README.md](README.md) | Overview and getting started |
 | [RUN-README.md](RUN-README.md) | Launch instructions and download blocking help |
 | [OPTIONS-README.md](OPTIONS-README.md) | Complete action guide and manual restore instructions |
-| [CHANGELOG.md](CHANGELOG.md) | Version 1.0.0 release changes |
+| [CHANGELOG.md](CHANGELOG.md) | Version 1.0.1 and earlier release changes |
 
 ## Frequently asked questions and troubleshooting
 

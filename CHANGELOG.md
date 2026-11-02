@@ -1,6 +1,15 @@
 # Shell Diagnostic and Repair Toolkit
 ## Changelog
 
+## Version 1.0.1 — 2026-11-01
+
+### Trust and Documentation
+
+- Added `SAFETY.md` and `SECURITY.md` to the downloadable package.
+- Updated the operational documentation and synchronized interface screenshot.
+- Updated the displayed toolkit and report version for this patch package.
+- No backup, diagnostic, or repair logic changed from Version 1.0.0.
+
 ## Version 1.0.0 — 2026-10-14
 
 ### Interface and Branding

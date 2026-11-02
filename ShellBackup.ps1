@@ -1,4 +1,4 @@
-﻿# Shell Diagnostic and Repair Toolkit | RebelTortuga | Version 1.0.0
+﻿# Shell Diagnostic and Repair Toolkit | RebelTortuga | Version 1.0.1
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 $script:items = New-Object System.Collections.ArrayList
@@ -61,7 +61,7 @@ if (Test-Path -LiteralPath $packages) {
 }
 AddItem 'Windows Terminal unpackaged settings' (Join-Path $env:LOCALAPPDATA 'Microsoft\Windows Terminal')
 $form=New-Object System.Windows.Forms.Form
-$form.Text='Shell Backup - RebelTortuga - Version 1.0.0'
+$form.Text='Shell Backup - RebelTortuga - Version 1.0.1'
 $form.Size=New-Object System.Drawing.Size(880,530)
 $form.StartPosition='CenterScreen'
 $label=New-Object System.Windows.Forms.Label

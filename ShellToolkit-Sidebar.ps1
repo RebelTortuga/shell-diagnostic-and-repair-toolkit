@@ -1,4 +1,4 @@
-﻿# Shell Diagnostic and Repair Toolkit | RebelTortuga | Version 1.0.0
+﻿# Shell Diagnostic and Repair Toolkit | RebelTortuga | Version 1.0.1
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
@@ -42,7 +42,7 @@ function VerifyBackup {
     Log "Verified $($rows.Count) listed files."
 }
 function Diagnose {
-    $script:Report = @('Shell Diagnostic Report - RebelTortuga - Version 1.0.0',"Time: $(Get-Date -Format o)",'File presence and tool discovery are indicators, not a diagnosis.')
+    $script:Report = @('Shell Diagnostic Report - RebelTortuga - Version 1.0.1',"Time: $(Get-Date -Format o)",'File presence and tool discovery are indicators, not a diagnosis.')
     foreach ($name in @('powershell.exe','pwsh.exe','cmd.exe','clink.exe','clink_x64.exe','oh-my-posh.exe','wt.exe','robocopy.exe','reg.exe')) {
         $tool = Get-Command $name -ErrorAction SilentlyContinue | Select-Object -First 1
         $script:Report += if ($tool) { "FOUND: $name - $($tool.Source)" } else { "INFO: $name not found on PATH; optional tools may be installed elsewhere." }
@@ -155,7 +155,7 @@ function ShowSection([string]$name) {
 try {
     Log 'Sidebar toolkit started.'
     $script:Form = New-Object System.Windows.Forms.Form
-    $script:Form.Text = 'Shell Diagnostic and Repair Toolkit - Version 1.0.0 - RebelTortuga'
+    $script:Form.Text = 'Shell Diagnostic and Repair Toolkit - Version 1.0.1 - RebelTortuga'
     $script:Form.Size = New-Object Drawing.Size(1050,900)
     $script:Form.MinimumSize = New-Object Drawing.Size(920,850)
     $script:Form.StartPosition = 'CenterScreen'
@@ -172,7 +172,7 @@ try {
     $null = $layout.RowStyles.Add((New-Object System.Windows.Forms.RowStyle('Absolute',40)))
     $script:Form.Controls.Add($layout)
     $title = New-Object System.Windows.Forms.Label
-    $title.Text = 'Shell Diagnostic and Repair Toolkit' + "`r`n" + 'Version 1.0.0 | RebelTortuga | Free to use' + "`r`n`r`n" + 'Save your work and close relevant shells and editors before backing up.'
+    $title.Text = 'Shell Diagnostic and Repair Toolkit' + "`r`n" + 'Version 1.0.1 | RebelTortuga | Free to use' + "`r`n`r`n" + 'Save your work and close relevant shells and editors before backing up.'
     $title.Dock = 'Fill'
     $layout.Controls.Add($title,0,0)
     $layout.SetColumnSpan($title,2)
